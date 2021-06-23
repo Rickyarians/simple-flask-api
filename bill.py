@@ -32,15 +32,19 @@ import datetime as dt
 import pytz
 
 def post():
-    data = {}
+   
     if request.json:
         print(request.json)
         date_time_str = json.loads(
                 request.data
         ).get('date')
+
+        if type(date_time_str) is int:
+            abort(400, 'Bad Request')
     else:
         abort(400)
 
+    
     
     try:
         date_time_obj = dt.datetime.strptime(date_time_str, '%d-%m-%Y')
