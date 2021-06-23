@@ -26,7 +26,6 @@
 W
 """
 import json
-from re import A
 from flask import abort, Flask, jsonify, redirect, request, url_for 
 import datetime as dt
 import pytz
