@@ -1,6 +1,6 @@
 # Convert-Date-py
 
-Python implementation of convert string date. Written in Python 3.
+Python implementation of convert string date. Written in Python 3
 
 ## Installation
 
@@ -9,18 +9,17 @@ Clone the repo:
 ```bash
 git clone https://github.com/Rickyarians/simple-flask-api
 ```
+Make sure these are installed on the os:
 
-Get inside the repo.
-Install python dependencies:
-
+- python 3+
+- pip
 - flask
 - venv
-
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install dependecies
 
 ```bash
-python3 -m pip install -r requirements.txt
+pip install <name dependecies>
 ```
 
 
@@ -34,14 +33,7 @@ py .\bill.py
 
 ## Documentation API
 
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
-
+you can import postman-collection in repository
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
